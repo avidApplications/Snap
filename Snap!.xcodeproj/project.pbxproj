@@ -14,6 +14,10 @@
 		AC2FF2381EBD375D003FED72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2FF2371EBD375D003FED72 /* Assets.xcassets */; };
 		AC2FF23B1EBD375D003FED72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2FF2391EBD375D003FED72 /* LaunchScreen.storyboard */; };
 		AC2FF24A1EBD6CCD003FED72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC2FF2491EBD6CCD003FED72 /* GoogleService-Info.plist */; };
+		AC2FF24C1EBD74C3003FED72 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2FF24B1EBD74C3003FED72 /* SnapsViewController.swift */; };
+		AC2FF24E1EBD7A72003FED72 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2FF24D1EBD7A72003FED72 /* PictureViewController.swift */; };
+		AC2FF2501EBD7E6C003FED72 /* Screen Shot 2017-03-18 at 3.08.30 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2FF24F1EBD7E6C003FED72 /* Screen Shot 2017-03-18 at 3.08.30 PM.png */; };
+		AC2FF2521EC03F46003FED72 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2FF2511EC03F46003FED72 /* SelectUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		AC2FF23C1EBD375D003FED72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2FF2441EBD5AE7003FED72 /* Snap!.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Snap!.entitlements"; sourceTree = "<group>"; };
 		AC2FF2491EBD6CCD003FED72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC2FF24B1EBD74C3003FED72 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		AC2FF24D1EBD7A72003FED72 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		AC2FF24F1EBD7E6C003FED72 /* Screen Shot 2017-03-18 at 3.08.30 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-03-18 at 3.08.30 PM.png"; sourceTree = "<group>"; };
+		AC2FF2511EC03F46003FED72 /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		AECBD8354A52E9EF94482365 /* Pods_Snap_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF91A6C991A2AB1A5A9730A3 /* Pods-Snap!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snap!/Pods-Snap!.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,8 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				AC2FF2441EBD5AE7003FED72 /* Snap!.entitlements */,
+				AC2FF24F1EBD7E6C003FED72 /* Screen Shot 2017-03-18 at 3.08.30 PM.png */,
 				AC2FF2301EBD375D003FED72 /* AppDelegate.swift */,
 				AC2FF2321EBD375D003FED72 /* SignInViewController.swift */,
+				AC2FF24B1EBD74C3003FED72 /* SnapsViewController.swift */,
+				AC2FF24D1EBD7A72003FED72 /* PictureViewController.swift */,
+				AC2FF2511EC03F46003FED72 /* SelectUserViewController.swift */,
 				AC2FF2341EBD375D003FED72 /* Main.storyboard */,
 				AC2FF2371EBD375D003FED72 /* Assets.xcassets */,
 				AC2FF2391EBD375D003FED72 /* LaunchScreen.storyboard */,
@@ -165,6 +177,7 @@
 				AC2FF24A1EBD6CCD003FED72 /* GoogleService-Info.plist in Resources */,
 				AC2FF2381EBD375D003FED72 /* Assets.xcassets in Resources */,
 				AC2FF2361EBD375D003FED72 /* Main.storyboard in Resources */,
+				AC2FF2501EBD7E6C003FED72 /* Screen Shot 2017-03-18 at 3.08.30 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +237,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2FF2331EBD375D003FED72 /* SignInViewController.swift in Sources */,
+				AC2FF24E1EBD7A72003FED72 /* PictureViewController.swift in Sources */,
+				AC2FF2521EC03F46003FED72 /* SelectUserViewController.swift in Sources */,
 				AC2FF2311EBD375D003FED72 /* AppDelegate.swift in Sources */,
+				AC2FF24C1EBD74C3003FED72 /* SnapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
